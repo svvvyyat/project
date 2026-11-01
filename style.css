@@ -69,12 +69,13 @@ li {
 }
 .main-card p {
     position: relative;
+    font-weight: 600;
     letter-spacing: 1.2px;
     top: -7px;
     font-size: 16px;
     color: #555555;
     line-height: 2.5;
-    margin-left: -8px;
+    margin-left: -7px;
     margin-bottom: 20px;
 }
 .buy-button {
@@ -95,10 +96,11 @@ li {
     background-color: #f2f5ff;
     min-height: 100px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
-    padding-top: 20px;
+    padding-top: 46px;
     padding-left: 10px;
+    padding-bottom: 2px;
 }
 
 .feature {
@@ -131,4 +133,47 @@ li {
     margin: 0;
     letter-spacing: 1px;
     color: #555555;
+}
+
+.inspiration {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 0 60px;
+}
+
+.inspiration h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+    margin: 10px 0 15px;
+}
+
+.inspiration p {
+    font-size: 20px;
+    color: #898989;
+    margin: 20px 0 43px;
+}
+
+.inspiration-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.inspiration-images img {
+    width: 355px;
+    height: 434px;
+    margin-top: -10px;
+    object-fit: cover;
+}
+
+.inspiration-images img:first-child {
+    margin-top: 50px;
+    border-radius: 70px 0 0 0;
+}
+
+.inspiration-images img:last-child {
+    padding-top: 60px;
+    border-radius: 0 0 70px 0;
 }
