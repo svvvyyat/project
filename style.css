@@ -93,18 +93,22 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px 0px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 .feature {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 15px;
 }
-
+.feature:last-child {
+    position: relative;
+    left: 9px;
+}
 .feature img {
-    width: 85px;
-    height: 85px;
+    width: 84px;
+    height: 84px;
     margin-left: 0px;
     object-fit: contain;
 }
@@ -112,6 +116,7 @@ li {
 .feature h3 {
     font-size: 22px;
     font-weight: 700;
+    letter-spacing: 1px;
     margin: 0 0 5px;
     color: #333333;
 }
@@ -120,5 +125,6 @@ li {
     font-size: 14px;
     font-weight: 400;
     margin: 0;
+    letter-spacing: 1px;
     color: #555555;
 }
