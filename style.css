@@ -26,12 +26,16 @@ h1 {
 }
 ul {
     display: flex;
+    position: relative;
+    right: 9px;
+    align-items: center;
     list-style: none;
-    gap: 73px;
+    gap: 70px;
 }
 li {
     color: #333333;
     font-size: 14px;
+    letter-spacing: 0.1px;
     font-weight: 600;
     font-family: montserrat;
 }
