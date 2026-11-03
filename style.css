@@ -10,6 +10,13 @@ header {
     padding: 27px 120px 15px;
     background-color: #ffffff;
 }
+header nav li a {
+    text-decoration: none;
+    color: #333333;
+}
+header nav li a:hover {
+    color: #939596;
+}
 h1 {
     font-size: 34px;
     font-weight: 700;
@@ -90,8 +97,11 @@ li {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     border-radius: 40px;
+    text-decoration: none;
 }
-
+.buy-button:hover {
+    background-color: #022f4a;
+}
 .features {
     background-color: #f2f5ff;
     min-height: 100px;
@@ -164,20 +174,28 @@ li {
 .inspiration-images img {
     width: 355px;
     height: 434px;
-    margin-top: -10px;
+    margin-top: 20px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
 }
 
 .inspiration-images img:nth-child(2) {
     position: relative;
     top: -8px;
 }
+.inspiration-images img:nth-child(2):hover {
+    transform: translateY(-40px);
+}
+.inspiration-images img:nth-child(1):hover {
+    transform: translateY(40px);
+}
+.inspiration-images img:nth-child(3):hover {
+    transform: translateY(40px);
+}
 .inspiration-images img:first-child {
-    margin-top: 50px;
     border-radius: 70px 0 0 0;
 }
 
 .inspiration-images img:last-child {
-    padding-top: 60px;
     border-radius: 0 0 70px 0;
 }
